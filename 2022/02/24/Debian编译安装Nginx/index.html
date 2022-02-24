@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>2345</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="2345">
+  <title>Debian编译安装Nginx | 2345</title>
+  <meta name="keywords" content=" Linux , 技术 , Nginx ">
+  <meta name="description" content="Debian编译安装Nginx | 2345">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Blog">
 <meta property="og:type" content="website">
@@ -245,17 +245,38 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <article id="post-Debian编译安装Nginx" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">Debian编译安装Nginx</h1>
     
     <div class="article-meta">
         
         
         
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="技术">技术</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color1">Linux</a>
+            
+            <a class="color3">技术</a>
+            
+            <a class="color1">Nginx</a>
+            
+        </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2022-02-24 12:50:03'>2022-02-24 15:24</time>
+            发布时间 : <time class="date" title='最后更新: 2022-02-24 17:42:38'>2022-02-24 17:41</time>
         
     </div>
     <div class="article-meta">
@@ -266,7 +287,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Blog"><span class="toc-text">Blog</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%86%E5%A4%87"><span class="toc-text">准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B"><span class="toc-text">编译安装过程</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -282,7 +303,46 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h1>
+        <h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>1.下载<a target="_blank" rel="noopener" href="http://www.pcre.org/">PCRE</a>库，并解压<br>2.下载<a target="_blank" rel="noopener" href="http://www.zlib.net/">zlib</a>库，并解压<br>3.下载<a target="_blank" rel="noopener" href="http://nginx.org/en/download.html">Nginx</a>的最新代码，解压<br>4.安装openssl和openssl-dev</p>
+<pre><code>apt install openssl
+apt install libssl-dev
+</code></pre>
+<p>5.创建目录</p>
+<pre><code>mkdir /etc/nginx/
+mkdir /var/log/nginx/
+mkdir /var/tmp/nginx/
+</code></pre>
+<h3 id="编译安装过程"><a href="#编译安装过程" class="headerlink" title="编译安装过程"></a>编译安装过程</h3><p>写好各种参数，到Nginx的源码目录下运行配置命令。其中，还要使用参数指向刚才下载的PCRE和zlib库的位置。</p>
+<pre><code>./configure \
+ --prefix=/usr/local/nginx \
+ --conf-path=/etc/nginx/nginx.conf \
+ --sbin-path=/usr/sbin/ \
+ --pid-path=/var/run/nginx.pid \
+ --lock-path=/var/lock/nginx.lock \
+ --user=www-data \
+ --group=www-data \
+ --with-http_ssl_module \
+ --with-http_dav_module \
+ --with-http_flv_module \
+ --with-http_realip_module \
+ --with-http_gzip_static_module \
+ --with-http_stub_status_module \
+ --with-mail --with-mail_ssl_module \
+ --with-pcre=../pcre-8.45 \
+ --with-zlib=../zlib-1.2.11 \
+ --with-debug \
+ --http-log-path=/var/log/nginx/access.log \
+ --error-log-path=/var/log/nginx/error.log \
+ --http-client-body-temp-path=/var/tmp/nginx/client \
+ --http-proxy-temp-path=/var/tmp/nginx/proxy \
+ --http-fastcgi-temp-path=/var/tmp/nginx/fastcgi \
+ --http-uwsgi-temp-path=/var/tmp/nginx/uwsgi \
+ --http-scgi-temp-path=/var/tmp/nginx/scgi
+</code></pre>
+<p>编译并安装</p>
+<pre><code>make &amp;&amp; make install
+</code></pre>
+
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论 </span>
     </div>

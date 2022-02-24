@@ -6,7 +6,7 @@
   <link href="https://www.234511.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.234511.xyz/"/>
-  <updated>2022-02-24T07:32:02.305Z</updated>
+  <updated>2022-02-24T09:42:38.532Z</updated>
   <id>https://www.234511.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Debian编译安装Nginx</title>
+    <link href="https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/"/>
+    <id>https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/</id>
+    <published>2022-02-24T09:41:22.000Z</published>
+    <updated>2022-02-24T09:42:38.532Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h3&gt;&lt;p&gt;1.下载&lt;a href=&quot;http://www.pcre.org/&quot;&gt;PCRE&lt;/a&gt;库，并解压&lt;br&gt;2.下载&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.234511.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://www.234511.xyz/tags/Linux/"/>
+    
+    <category term="技术" scheme="https://www.234511.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Nginx" scheme="https://www.234511.xyz/tags/Nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux通过inode值删除特殊字符文件</title>
