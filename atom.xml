@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>2345</title>
+  
+  <subtitle>2345 blog</subtitle>
+  <link href="https://www.234511.xyz/atom.xml" rel="self"/>
+  
+  <link href="https://www.234511.xyz/"/>
+  <updated>2022-02-24T06:22:35.038Z</updated>
+  <id>https://www.234511.xyz/</id>
+  
+  <author>
+    <name>qonmnop</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux通过inode值删除特殊字符文件</title>
+    <link href="https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/"/>
+    <id>https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/</id>
+    <published>2022-02-24T06:21:51.000Z</published>
+    <updated>2022-02-24T06:22:35.038Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;使用&lt;code&gt;ls -i&lt;/code&gt;查询文件inode值&lt;br&gt;使用&lt;code&gt;find&lt;/code&gt;命令删除&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.234511.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://www.234511.xyz/tags/Linux/"/>
+    
+    <category term="技术" scheme="https://www.234511.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo - Hello World</title>
+    <link href="https://www.234511.xyz/2022/02/24/hello-world/"/>
+    <id>https://www.234511.xyz/2022/02/24/hello-world/</id>
+    <published>2022-02-24T04:09:01.000Z</published>
+    <updated>2022-02-24T05:00:54.795Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://www.234511.xyz/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="-其他" scheme="https://www.234511.xyz/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+</feed>
