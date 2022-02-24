@@ -1,2 +1,0 @@
-# qonmnop.github.io
-blog
