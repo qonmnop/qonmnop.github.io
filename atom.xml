@@ -6,7 +6,7 @@
   <link href="https://www.234511.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.234511.xyz/"/>
-  <updated>2022-03-01T08:59:34.066Z</updated>
+  <updated>2022-03-01T09:02:40.322Z</updated>
   <id>https://www.234511.xyz/</id>
   
   <author>
@@ -21,10 +21,18 @@
     <link href="https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/"/>
     <id>https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/</id>
     <published>2022-03-01T08:46:54.000Z</published>
-    <updated>2022-03-01T08:59:34.066Z</updated>
+    <updated>2022-03-01T09:02:40.322Z</updated>
     
     
-    <summary type="html">使用Nginx配合SmartDNS配置属于自己的DoH</summary>
+    <summary type="html">&lt;h3 id=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;a href=&quot;#删除默认源的Nginx（如果安装了Nginx）&quot; class=&quot;headerlink&quot; title=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;/a&gt;删除默认源的Nginx（如果安装了Nginx）&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sudo apt remove nginx-*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;配置Nginx官方源&quot;&gt;&lt;a href=&quot;#配置Nginx官方源&quot; class=&quot;headerlink&quot; title=&quot;配置Nginx官方源&quot;&gt;&lt;/a&gt;配置Nginx官方源&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://nginx.org/en/linux_packages.html#Debian&quot;&gt;Nginx Debian Packages Install&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装Nginx的njs模块&quot;&gt;&lt;a href=&quot;#安装Nginx的njs模块&quot; class=&quot;headerlink&quot; title=&quot;安装Nginx的njs模块&quot;&gt;&lt;/a&gt;安装Nginx的njs模块&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sudo apt install nginx-module-njs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;打开&lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt;，在顶层添加以下配置加载模块&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;load_module modules/ngx_http_js_module.so;
+load_module modules/ngx_stream_js_module.so;
+&lt;/code&gt;&lt;/pre&gt;</summary>
     
     
     
@@ -44,10 +52,10 @@
     <link href="https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/"/>
     <id>https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/</id>
     <published>2022-02-24T09:41:22.000Z</published>
-    <updated>2022-03-01T08:58:13.822Z</updated>
+    <updated>2022-03-01T09:02:43.590Z</updated>
     
     
-    <summary type="html">基于Debian系统，通过编译的方式安装Nginx。</summary>
+    <summary type="html">&lt;h3 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h3&gt;&lt;p&gt;1.下载&lt;a href=&quot;https://www.pcre.org/&quot;&gt;PCRE&lt;/a&gt;库，并解压&lt;br&gt;2.下载&lt;a href=&quot;https://www.zlib.net/&quot;&gt;zlib&lt;/a&gt;库，并解压&lt;br&gt;3.下载&lt;a href=&quot;https://nginx.org/en/download.html&quot;&gt;Nginx&lt;/a&gt;的最新代码，解压&lt;/p&gt;</summary>
     
     
     
@@ -67,10 +75,17 @@
     <link href="https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/"/>
     <id>https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/</id>
     <published>2022-02-24T06:21:51.000Z</published>
-    <updated>2022-03-01T08:57:39.334Z</updated>
+    <updated>2022-03-01T09:02:45.174Z</updated>
     
     
-    <summary type="html">使用inode值删除特殊字符文件名的文件</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;使用&lt;code&gt;ls -i&lt;/code&gt;查询文件inode值&lt;br&gt;使用&lt;code&gt;find&lt;/code&gt;命令删除&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;find ./ -inum inode</summary>
+        
+      
     
     
     
@@ -88,10 +103,10 @@
     <link href="https://www.234511.xyz/2022/02/24/hello-world/"/>
     <id>https://www.234511.xyz/2022/02/24/hello-world/</id>
     <published>2022-02-24T04:09:01.000Z</published>
-    <updated>2022-03-01T08:56:59.542Z</updated>
+    <updated>2022-03-01T09:02:48.634Z</updated>
     
     
-    <summary type="html">Hexo Documentation</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
