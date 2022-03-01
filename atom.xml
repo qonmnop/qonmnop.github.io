@@ -6,7 +6,7 @@
   <link href="https://www.234511.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.234511.xyz/"/>
-  <updated>2022-03-01T08:47:53.822Z</updated>
+  <updated>2022-03-01T08:59:34.066Z</updated>
   <id>https://www.234511.xyz/</id>
   
   <author>
@@ -21,16 +21,10 @@
     <link href="https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/"/>
     <id>https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/</id>
     <published>2022-03-01T08:46:54.000Z</published>
-    <updated>2022-03-01T08:47:53.822Z</updated>
+    <updated>2022-03-01T08:59:34.066Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;a href=&quot;#删除默认源的Nginx（如果安装了Nginx）&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">使用Nginx配合SmartDNS配置属于自己的DoH</summary>
     
     
     
@@ -50,16 +44,10 @@
     <link href="https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/"/>
     <id>https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/</id>
     <published>2022-02-24T09:41:22.000Z</published>
-    <updated>2022-02-25T02:32:08.062Z</updated>
+    <updated>2022-03-01T08:58:13.822Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h3&gt;&lt;p&gt;1.下载&lt;a href=&quot;https://www.pcre.org/&quot;&gt;PCRE&lt;/a&gt;库，并解压&lt;br&gt;2.下载&lt;a</summary>
-        
-      
+    <summary type="html">基于Debian系统，通过编译的方式安装Nginx。</summary>
     
     
     
@@ -79,17 +67,10 @@
     <link href="https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/"/>
     <id>https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/</id>
     <published>2022-02-24T06:21:51.000Z</published>
-    <updated>2022-02-24T07:32:02.305Z</updated>
+    <updated>2022-03-01T08:57:39.334Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;使用&lt;code&gt;ls -i&lt;/code&gt;查询文件inode值&lt;br&gt;使用&lt;code&gt;find&lt;/code&gt;命令删除&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;find ./ -inum inode</summary>
-        
-      
+    <summary type="html">使用inode值删除特殊字符文件名的文件</summary>
     
     
     
@@ -107,16 +88,10 @@
     <link href="https://www.234511.xyz/2022/02/24/hello-world/"/>
     <id>https://www.234511.xyz/2022/02/24/hello-world/</id>
     <published>2022-02-24T04:09:01.000Z</published>
-    <updated>2022-02-26T05:11:57.390Z</updated>
+    <updated>2022-03-01T08:56:59.542Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">Hexo Documentation</summary>
     
     
     
