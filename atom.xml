@@ -6,7 +6,7 @@
   <link href="https://www.234511.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.234511.xyz/"/>
-  <updated>2022-02-25T02:32:08.062Z</updated>
+  <updated>2022-03-01T08:47:53.822Z</updated>
   <id>https://www.234511.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Debian 使用Nginx + SmartDNS 建DoH</title>
+    <link href="https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/"/>
+    <id>https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/</id>
+    <published>2022-03-01T08:46:54.000Z</published>
+    <updated>2022-03-01T08:47:53.822Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;a href=&quot;#删除默认源的Nginx（如果安装了Nginx）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.234511.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://www.234511.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://www.234511.xyz/tags/Linux/"/>
+    
+    <category term="Nginx" scheme="https://www.234511.xyz/tags/Nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>Debian编译安装Nginx</title>
