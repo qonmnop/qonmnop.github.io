@@ -6,7 +6,7 @@
   <link href="https://www.234511.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.234511.xyz/"/>
-  <updated>2022-03-01T09:02:40.322Z</updated>
+  <updated>2022-03-01T09:02:40.000Z</updated>
   <id>https://www.234511.xyz/</id>
   
   <author>
@@ -21,18 +21,16 @@
     <link href="https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/"/>
     <id>https://www.234511.xyz/2022/03/01/Debian-%E4%BD%BF%E7%94%A8Nginx-SmartDNS-%E5%BB%BADoH/</id>
     <published>2022-03-01T08:46:54.000Z</published>
-    <updated>2022-03-01T09:02:40.322Z</updated>
+    <updated>2022-03-01T09:02:40.000Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;a href=&quot;#删除默认源的Nginx（如果安装了Nginx）&quot; class=&quot;headerlink&quot; title=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;/a&gt;删除默认源的Nginx（如果安装了Nginx）&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sudo apt remove nginx-*
-&lt;/code&gt;&lt;/pre&gt;
+    <summary type="html">&lt;h3 id=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;a href=&quot;#删除默认源的Nginx（如果安装了Nginx）&quot; class=&quot;headerlink&quot; title=&quot;删除默认源的Nginx（如果安装了Nginx）&quot;&gt;&lt;/a&gt;删除默认源的Nginx（如果安装了Nginx）&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo apt remove nginx-*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;h3 id=&quot;配置Nginx官方源&quot;&gt;&lt;a href=&quot;#配置Nginx官方源&quot; class=&quot;headerlink&quot; title=&quot;配置Nginx官方源&quot;&gt;&lt;/a&gt;配置Nginx官方源&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://nginx.org/en/linux_packages.html#Debian&quot;&gt;Nginx Debian Packages Install&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;安装Nginx的njs模块&quot;&gt;&lt;a href=&quot;#安装Nginx的njs模块&quot; class=&quot;headerlink&quot; title=&quot;安装Nginx的njs模块&quot;&gt;&lt;/a&gt;安装Nginx的njs模块&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sudo apt install nginx-module-njs
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;安装Nginx的njs模块&quot;&gt;&lt;a href=&quot;#安装Nginx的njs模块&quot; class=&quot;headerlink&quot; title=&quot;安装Nginx的njs模块&quot;&gt;&lt;/a&gt;安装Nginx的njs模块&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo apt install nginx-module-njs&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;打开&lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt;，在顶层添加以下配置加载模块&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;load_module modules/ngx_http_js_module.so;
-load_module modules/ngx_stream_js_module.so;
-&lt;/code&gt;&lt;/pre&gt;</summary>
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;load_module modules/ngx_http_js_module.so;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;load_module modules/ngx_stream_js_module.so;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -52,7 +50,7 @@ load_module modules/ngx_stream_js_module.so;
     <link href="https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/"/>
     <id>https://www.234511.xyz/2022/02/24/Debian%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Nginx/</id>
     <published>2022-02-24T09:41:22.000Z</published>
-    <updated>2022-03-01T09:02:43.590Z</updated>
+    <updated>2022-03-01T09:02:43.000Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h3&gt;&lt;p&gt;1.下载&lt;a href=&quot;https://www.pcre.org/&quot;&gt;PCRE&lt;/a&gt;库，并解压&lt;br&gt;2.下载&lt;a href=&quot;https://www.zlib.net/&quot;&gt;zlib&lt;/a&gt;库，并解压&lt;br&gt;3.下载&lt;a href=&quot;https://nginx.org/en/download.html&quot;&gt;Nginx&lt;/a&gt;的最新代码，解压&lt;/p&gt;</summary>
@@ -75,7 +73,7 @@ load_module modules/ngx_stream_js_module.so;
     <link href="https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/"/>
     <id>https://www.234511.xyz/2022/02/24/Linux%E9%80%9A%E8%BF%87inode%E5%80%BC%E5%88%A0%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E6%96%87%E4%BB%B6/</id>
     <published>2022-02-24T06:21:51.000Z</published>
-    <updated>2022-03-01T09:02:45.174Z</updated>
+    <updated>2022-03-01T09:02:45.000Z</updated>
     
     
       
@@ -83,7 +81,7 @@ load_module modules/ngx_stream_js_module.so;
         
         
     <summary type="html">&lt;p&gt;使用&lt;code&gt;ls -i&lt;/code&gt;查询文件inode值&lt;br&gt;使用&lt;code&gt;find&lt;/code&gt;命令删除&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;find ./ -inum inode</summary>
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
         
       
     
@@ -103,7 +101,7 @@ load_module modules/ngx_stream_js_module.so;
     <link href="https://www.234511.xyz/2022/02/24/hello-world/"/>
     <id>https://www.234511.xyz/2022/02/24/hello-world/</id>
     <published>2022-02-24T04:09:01.000Z</published>
-    <updated>2022-03-01T09:02:48.634Z</updated>
+    <updated>2022-03-01T09:02:48.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
